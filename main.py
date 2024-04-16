@@ -85,10 +85,10 @@ def exp_setting(chunk_no:str):
 def ieval(chunk_no:str):
 
     evaluator = FFMLLama2()
-    data_path = r'D:\ellom\working\Llm_eval\tmmluplus\data_test'
-    model_name = "ffm-llama2-70b-chat-exp"
+    data_path = r'DATA PATH'
+    model_name = "MODEL NAME"
     model_name_path = model_name.replace("-", "_")
-    Save_result_dir = r'D:\ellom\working\Llm_eval\tmmluplus\eval_result'
+    Save_result_dir = r'Result Path'
 
     task_list, subject2name, subject2category = exp_setting(chunk_no=chunk_no)
 
