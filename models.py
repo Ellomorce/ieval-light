@@ -24,9 +24,9 @@ logger.addHandler(stdout_handler)
 #%%
 class FFMLLama2:
     def __init__(self, switch_zh_hans=False) -> None:
-        self.api_key="af13849c-85d7-4ccf-8879-89c58052ea78"
-        self.model_name="ffm-llama2-70b-chat-exp"
-        self.api_url="https://57729.afs.twcc.ai/text-generation"
+        self.api_key="API KEY"
+        self.model_name="MODEL NAME"
+        self.api_url="MODEL URL"
         self.max_new_tokens=350
         self.temperature=0.5
         self.top_k=50
